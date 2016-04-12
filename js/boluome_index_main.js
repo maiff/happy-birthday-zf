@@ -14,7 +14,7 @@ $(document).scroll(function(){
     var scroll_h=$(document).scrollTop();
 
     if(scroll_h>650){
-        $(".page_2_banner").animate({"opacity":"1","bottom":"180px"},1600,"easeOutQuint");
+        $(".page_2_banner").animate({"opacity":"1","bottom":"100px"},1600,"easeOutQuint");
     }
 
     if(scroll_h>1450){
@@ -78,9 +78,9 @@ $(window).resize(function() {
 });
 
 $(".download_button").mouseenter(function(){
-	$(".download_button i").css({"animation":"ripple 1.4s ease-out both","width":"300px","height":"300px","margin":"-150px 0 0 -150px"});
+    $(".download_button i").css({"animation":"ripple 1.4s ease-out both","width":"300px","height":"300px","margin":"-150px 0 0 -150px"});
 })
 
 $(".download_button").mouseleave(function(){
-	$(".download_button i").css({"animation":"none","width":"0","height":"0","margin":"none"});
+    $(".download_button i").css({"animation":"none","width":"0","height":"0","margin":"none"});
 })

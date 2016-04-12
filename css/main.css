@@ -23,10 +23,10 @@ table td{ padding:2px 0}
 .header .logo{width: 240px; height: 74px; overflow: hidden; float: left}
 .header .logo img{ height:70%;padding: 5%;}
 .header .menu{width: 300px; float: right; text-align: right; padding: 22px 16px 0 0}
-.header .menu a{color: #525252;font-size: 16px; margin:0 6px; text-decoration: none; position: relative}
+.header .menu a{-webkit-transition: all .5s ease; transition:all .5s ease;color: #525252;font-size: 16px; margin:0 6px; text-decoration: none; position: relative}
 .header .menu a:visited{color: #525252}
 .header .menu a:hover{color: #525252}
-.header .menuh1 a em{display: block;position: absolute; bottom:-6px; left:50%; width: 0%; border-bottom: 1px solid #888;-webkit-transition: .5s ease; transition: .5s ease;}
+.header .menu a em{display: block;position: absolute; bottom:-6px; left:50%; width: 0%; border-bottom: 1px solid #888;-webkit-transition: all .5s ease; transition:all .5s ease;}
 .header .menu a:hover em{display: block;position: absolute; bottom:-6px; left:0; width: 100%; border-bottom: 1px solid #888}
 
 .header .menu .a_select em{left:0; width: 100%;  }
