@@ -70,8 +70,8 @@ a.goto_play_video:visited{color: #525252;}
 a.goto_play_video:hover{color: #222; cursor: pointer}
 
 .page_1_right{ width: 50%; position:absolute; right: 0; top: 32px;}
-.page_1_right .main_snapshot{ width: 310px; height: 551px; position: absolute;right: 180px; top:32px;background: url(../src/main_snapshot.png) no-repeat; background-size: 100% 100%; box-shadow: -6px 0px 40px rgba(0,0,0,.08); z-index: 2; opacity: 0}
-.page_1_right .main_snapshot2{ width: 270px; height: 480px; position: absolute;right: 40px; top:68px; background: url(../src/main_snapshot2.png) no-repeat; background-size: 100% 100%; box-shadow: -4px 0px 30px rgba(0,0,0,.05); z-index: 1;opacity: 0}
+.page_1_right .main_snapshot{ width: 310px; height: 551px; position: absolute;right: 180px; top:32px;background: url(../src/app1.png) no-repeat; background-size: 100% 100%; box-shadow: -6px 0px 40px rgba(0,0,0,.08); z-index: 2; opacity: 0}
+.page_1_right .main_snapshot2{ width: 270px; height: 480px; position: absolute;right: 40px; top:68px; background: url(../src/app2.png) no-repeat; background-size: 100% 100%; box-shadow: -4px 0px 30px rgba(0,0,0,.05); z-index: 1;opacity: 0}
 
 .page_1_right .hi{width: 78px; height: 104px;background: url(../images/hi.png) no-repeat; background-size: 100% 100%; position: absolute; right: 0; top: 256px; opacity: 0}
 
