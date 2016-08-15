@@ -177,14 +177,14 @@
                     delete this.rules["sohu"];
                 }
                 var handler = this.animationsHandler.bind(this);
-               //document.body.addEventListener('webkitAnimationStart', handler, false);
+                document.body.addEventListener('webkitAnimationStart', handler, false);
                 document.body.addEventListener('msAnimationStart', handler, false);
                 document.body.addEventListener('oAnimationStart', handler, false);
                 document.body.addEventListener('animationstart', handler, false);
                 this.addAnimations();
             }
         };
-        new A().init();
+       
     })();
 }
 // 20140730
@@ -324,6 +324,7 @@ if(document.URL.indexOf('www.baidu.com') >= 0){
 <script src="./js/jquery-1.11.3.min.js"></script>
 <script src="./js/jquery.easing.1.3.js"></script>
 <script src="./js/boluome_index_main.js"></script>
+<script> new A().init();</script>
    
 
 <!-- WPA Button Begin -->
